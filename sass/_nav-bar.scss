@@ -1,0 +1,66 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.logo {
+    margin: 0 auto;
+    width: 100px;
+}
+
+.logo-img {
+    width: 100px;
+    height: 50px;
+}
+
+a {
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    position: fixed;
+}
+
+.about {
+    transform-origin: left;
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 250px;
+    left: 20px;
+}
+
+.projects {
+    transform-origin: left;
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 350px;
+    left: 20px;
+}
+
+.contact {
+    transform-origin: left;
+    transform: rotate(-90deg);
+    position: fixed;
+    top: 450px;
+    left: 20px;
+}
+
+.dafi-design {
+    position: fixed;
+    top: 15px;
+    right: 10px;
+
+// dafi desing - transformed right
+    // transform-origin: right;
+    // transform: rotate(90deg);
+    // right: 20px;
+    // top: 400px;
+}
