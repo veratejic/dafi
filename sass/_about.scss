@@ -1,0 +1,43 @@
+.about {
+  text-align:left;
+  max-width: 60%;
+  font-size: 18px;
+  line-height: 32px;
+
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.us {
+  margin-bottom: 35px;
+}
+
+.hightlight {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FF6600;
+}
+
+.team {
+  display: flex;
+  flex-direction: row;
+}
+
+.filippo {
+  display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: 200px;
+    margin-left: 550px;
+}
+
+// .team:nth-child(odd) {
+//   justify-content: flex-end;
+// }
+//
+// .empty {
+//   width: 60%
+// }

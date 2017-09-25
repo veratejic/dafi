@@ -1,3 +1,44 @@
-.projects {
-    margin-top: 15px;
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  img {
+    max-width: 100%;
+  }
+}
+
+.project:nth-child(even) {
+  justify-content: flex-end;
+}
+
+.project-content {
+  max-width: 40%;
+}
+
+.projects-nav {
+  position: absolute;
+  left: 50%;
+  z-index: 9;
+  width: 30px;
+  height: 60vh;
+  background-color: red;
+
+}
+
+.line {
+    border-style: solid;
+    border-color: #FF6600;
+    border-width: 2px;
+    width: 30px;
+    margin-top: 1px;
+    margin-bottom: 2px;
 }

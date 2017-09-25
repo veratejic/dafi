@@ -67,38 +67,25 @@ a:visited {
 }
 
 /* line 28, ../sass/_nav-bar.scss */
+.side-bar {
+  position: fixed;
+  transform-origin: left;
+  transform: rotate(-90deg) translateX(-50%);
+  top: 50%;
+  left: 25px;
+}
+
+/* line 37, ../sass/_nav-bar.scss */
 .nav {
-  position: fixed;
+  display: block;
+}
+/* line 39, ../sass/_nav-bar.scss */
+.nav li {
+  display: inline;
+  margin-left: 10px;
 }
 
-/* line 32, ../sass/_nav-bar.scss */
-.about {
-  transform-origin: left;
-  transform: rotate(-90deg);
-  position: fixed;
-  top: 250px;
-  left: 20px;
-}
-
-/* line 40, ../sass/_nav-bar.scss */
-.projects {
-  transform-origin: left;
-  transform: rotate(-90deg);
-  position: fixed;
-  top: 350px;
-  left: 20px;
-}
-
-/* line 48, ../sass/_nav-bar.scss */
-.contact {
-  transform-origin: left;
-  transform: rotate(-90deg);
-  position: fixed;
-  top: 450px;
-  left: 20px;
-}
-
-/* line 56, ../sass/_nav-bar.scss */
+/* line 45, ../sass/_nav-bar.scss */
 .dafi-design {
   position: fixed;
   top: 15px;
@@ -106,22 +93,28 @@ a:visited {
 }
 
 /* line 1, ../sass/_intro.scss */
+body {
+  background: #e8ebef;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* line 6, ../sass/_intro.scss */
 .intro {
   position: relative;
   height: 100vh;
 }
 
-/* line 6, ../sass/_intro.scss */
+/* line 11, ../sass/_intro.scss */
 .text {
-  margin-top: 16%;
+  margin-top: 35%;
 }
 
-/* line 10, ../sass/_intro.scss */
+/* line 15, ../sass/_intro.scss */
 .title {
   font-size: 7rem;
 }
 
-/* line 14, ../sass/_intro.scss */
+/* line 20, ../sass/_intro.scss */
 .we-are {
   font-size: 2rem;
   text-align: left;
@@ -129,7 +122,7 @@ a:visited {
   margin-top: 6%;
 }
 
-/* line 21, ../sass/_intro.scss */
+/* line 27, ../sass/_intro.scss */
 .break-line {
   border-style: solid;
   border-color: #FF6600;
@@ -155,4 +148,97 @@ a:visited {
   font-size: 18px;
   font-weight: 800;
   color: #FF6600;
+}
+
+/* line 1, ../sass/_projects.scss */
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/* line 5, ../sass/_projects.scss */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 10, ../sass/_projects.scss */
+.project {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+}
+/* line 14, ../sass/_projects.scss */
+.project img {
+  max-width: 100%;
+}
+
+/* line 19, ../sass/_projects.scss */
+.project:nth-child(even) {
+  justify-content: flex-end;
+}
+
+/* line 23, ../sass/_projects.scss */
+.project-content {
+  max-width: 40%;
+}
+
+/* line 27, ../sass/_projects.scss */
+.projects-nav {
+  position: absolute;
+  left: 50%;
+  z-index: 9;
+  width: 30px;
+  height: 60vh;
+  background-color: red;
+}
+
+/* line 37, ../sass/_projects.scss */
+.line {
+  border-style: solid;
+  border-color: #FF6600;
+  border-width: 2px;
+  width: 30px;
+  margin-top: 1px;
+  margin-bottom: 2px;
+}
+
+/* line 1, ../sass/_about.scss */
+.about {
+  text-align: left;
+  max-width: 60%;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+/* line 9, ../sass/_about.scss */
+.about h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* line 14, ../sass/_about.scss */
+.us {
+  margin-bottom: 35px;
+}
+
+/* line 18, ../sass/_about.scss */
+.hightlight {
+  font-size: 25px;
+  font-weight: 600;
+  color: #FF6600;
+}
+
+/* line 24, ../sass/_about.scss */
+.team {
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 29, ../sass/_about.scss */
+.filippo {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  margin-top: 200px;
+  margin-left: 550px;
 }

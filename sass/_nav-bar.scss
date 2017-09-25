@@ -25,32 +25,21 @@ a:visited{
     color: black;
 }
 
+.side-bar {
+  position: fixed;
+  transform-origin: left;
+  transform: rotate(-90deg) translateX(-50%);
+  top: 50%;
+  left: 25px;
+
+}
+
 .nav {
-    position: fixed;
-}
-
-.about {
-    transform-origin: left;
-    transform: rotate(-90deg);
-    position: fixed;
-    top: 250px;
-    left: 20px;
-}
-
-.projects {
-    transform-origin: left;
-    transform: rotate(-90deg);
-    position: fixed;
-    top: 350px;
-    left: 20px;
-}
-
-.contact {
-    transform-origin: left;
-    transform: rotate(-90deg);
-    position: fixed;
-    top: 450px;
-    left: 20px;
+    display: block;
+    li {
+      display: inline;
+      margin-left: 10px;
+    }
 }
 
 .dafi-design {

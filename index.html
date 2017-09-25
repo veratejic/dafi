@@ -9,24 +9,24 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
 </head>
 
-<body>
+<body style="background: #cdd1d8">
     <nav class="nav-bar">
         <!-- logo at the top of the screen (fixed) -->
         <!-- <div class="logo">
             <img class="logo-img" src="img/logo.png" alt="">
         </div> -->
 
-<!-- side navigation bar need to add div, change css for elements - div, ul, li, a -->
+<div class="side-bar">
         <ul class="nav">
-            <li class="about"> <a href="#about">ABOUT</a>
-            <li class="projects"> <a href="#projects">PROJECTS</a>
             <li class="contact"> <a href="#contact">CONTACT</a>
+            <li class="projects"> <a href="#projects">PROJECTS</a>
+            <li class="about"> <a href="#about">ABOUT</a>
         </ul>
+      </div>
 
         <h3 class="dafi-design"> DAFI DESIGN </h3>
     </nav>
 
-<!-- need div container inside intro div, with 2 rows for some image and "We are"-->
     <div class="intro">
         <div class="container">
             <div class="row">
@@ -37,54 +37,82 @@
             <h1 class="title"> We are </h1>
             <div class="break-line"> </div>
             <p class="we-are">A multidisciplinary team of designers specialized in product developement and branding. </p>
-        </div>
+          </div>
             </div>
             </div>
         </div>
     </div>
 
-<h1> cao </h1>
-    <!-- Projects section. Need to put div project inside column. first row, col, div project, and to style img element with max-widht -->
-    <section class="projects1">
-        <div class="container">
-            <div class="cocacola">
-                <div class=row>
-                    <div class="col-md-6">
-                        <img src="img/cocacola.png" alt="">
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                </div>
-            </div>
-            <div class="harley">
-                <div class=row>
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/harley.png" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="pasty">
-                <div class=row>
-                    <div class="col-md-6">
-                        <img src="img/pasty.png" alt="">
-                    </div>
-                    <div class="col-md-6">
-                    </div>
-                </div>
-            </div>
-            <div class="tower">
-                <div class=row>
-                    <div class="col-md-6">
-                    </div>
-                    <div class="col-md-6">
-                        <img src="img/tower.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<section class="projects">
+  <div class="projects-nav">
+  </div>
+
+  <div class="container">
+    <div class="project">
+      <div class="project-content">
+        <img src="img/cocacola.png" alt="">
+        <h3>Coce Crate</h3>
+        <div class="line"> </div>
+        <p>4 bottle crate isnpired by CocaCola's logo underline</p>
+    </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <img src="img/harley.png" alt="">
+        <h3>Jever Harley</h3>
+        <div class="line"> </div>
+        <p>Design of custom Harley Davidson made for German brewery from Hamburg</p>
+    </div>
+  </div>
+
+    <div class="project">
+      <div class="project-content">
+        <img src="img/pasty.png" alt="">
+        <h3>Pasty</h3>
+        <div class="line"> </div>
+        <p>Spaghetti doser with 3 different dosage amounts and 2 kilos holding capacity</p>
+    </div>
+    </div>
+
+    <div class="project">
+      <div class="project-content">
+        <img src="img/tower.png" alt="">
+        <h3>ScentTower</h3>
+        <div class="line"> </div>
+        <p>Electrically heated air freshener</p>
+    </div>
+    </div>
+</div>
+</section>
+
+<section class="about-us">
+  <div class="container">
+    <div class="about">
+      <h1> DAFI </h1>
+      <p class="us">Our logo represents two neutral faces joining in one and looking around at everyone and everything. This reflects our believe in design as anything made "by people for people".
+        We <span class="hightlight">believe</span> that most of today's problems are a direct consequence of limited brainstorming of ideas.
+      </div>
+
+<div class="team">
+    <div class="damjan">
+      <h3>Damjan Jovancic</h3>
+      <div class="line"> </div>
+      <p>Co-Founder, Industrial Designer</p>
+    </div>
+
+    <div class="filippo">
+      <h3>Filippo Imperiali</h3>
+      <div class="line"> </div>
+      <p>Co-Founder, Industrial Designer</p>
+    </div>
+  </div>
+  </div>
+</section>
+
+<section class="contact">
+  
+</section>
 </body>
 
 </html>
