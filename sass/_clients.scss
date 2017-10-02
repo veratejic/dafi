@@ -1,0 +1,35 @@
+.partner-img img {
+  max-width: 100%;
+  background: #fff;
+  filter: grayscale(1);
+  transition: all 0.5s ease-in-out;
+}
+
+.partner-img {
+  margin-bottom: 20px;
+}
+
+.topposition {
+  margin-top: 13%;
+  margin-left: 25px;
+}
+
+.cnt-button a {
+  display: inline-block;
+  border: 3px solid #FF6600;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+.letswork {
+  margin-top: 50%;
+  margin-left: 30px;
+}
+
+.cnt-button {
+  margin-top: 30px;
+}

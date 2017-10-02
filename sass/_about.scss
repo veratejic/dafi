@@ -1,5 +1,10 @@
-.about {
-  text-align:left;
+
+
+.aboutus {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
+  text-align: left;
   max-width: 60%;
   font-size: 18px;
   line-height: 32px;
@@ -24,20 +29,52 @@
 .team {
   display: flex;
   flex-direction: row;
+  margin-top: 35%;
+}
+
+.damjan {
+  margin-left: 10%;
 }
 
 .filippo {
-  display: flex;
+    display: flex;
     justify-content: flex-end;
     flex-direction: column;
     margin-top: 200px;
-    margin-left: 550px;
+    margin-left: 250px;
 }
 
-// .team:nth-child(odd) {
-//   justify-content: flex-end;
+.team-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+  }
+
+// about page moved to contact.scss
+// .logo-img {
+//     width: 125px;
+//     height: 60px;
+//     position: fixed;
+//     top: 15px;
+//     right: 10px;
+//   }
+//
+//   .hightlight a {
+//     text-decoration: underline;
+//     font-size: 32px;
+//     font-weight: 400;
+//     color: #FF6600;
+//   }
+//
+// .work {
+//   margin-top: 8%;
+//   margin-left: 10%;
 // }
 //
-// .empty {
-//   width: 60%
-// }
+//   .follow {
+//     position: absolute;
+//     text-align: left;
+//     font-size: 45px;
+//     font-weight: bold;
+//     width: 65%;
+//   }

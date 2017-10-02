@@ -1,0 +1,62 @@
+.logo-img {
+    width: 125px;
+    height: 60px;
+    position: fixed;
+    top: 15px;
+    right: 10px;
+  }
+
+  .hightlight a {
+    text-decoration: underline;
+    font-size: 42px;
+    font-weight: 400;
+    color: #FF6600;
+  }
+
+.work {
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+  .follow {
+    position: absolute;
+    text-align: left;
+    font-size: 45px;
+    font-weight: 500;
+    width: 65%;
+  }
+
+// BUTTONS
+  .social {
+      // position:absolute;
+      // bottom: 20px;
+      // right: 50px;
+      position: fixed;
+      bottom: 20px;
+      right: 50px;
+      display: flex;
+      flex-direction: row;
+
+  }
+
+  .circle-base {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      background: #ccc;
+      border: 1.5px solid #000;
+      text-align: center;
+      margin: 2px;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  a:visited {
+      text-decoration: none;
+  }
+
+  a:hover {
+      color: black
+  }

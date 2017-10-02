@@ -1,101 +1,66 @@
-/* line 1, ../sass/_buttons.scss */
-.social {
-  position: fixed;
-  bottom: 20px;
-  right: 50px;
-  display: flex;
-  flex-direction: row;
-}
-
-/* line 13, ../sass/_buttons.scss */
-.circle-base {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  background: #ccc;
-  border: 1.5px solid #000;
-  text-align: center;
-  margin: 2px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* line 27, ../sass/_buttons.scss */
-a:visited {
-  text-decoration: none;
-}
-
-/* line 31, ../sass/_buttons.scss */
-a:hover {
-  color: black;
-}
-
 /* line 1, ../sass/_nav-bar.scss */
-body {
-  font-family: 'Noto Sans', sans-serif;
-}
-
-/* line 5, ../sass/_nav-bar.scss */
 .logo {
   margin: 0 auto;
   width: 100px;
 }
 
-/* line 10, ../sass/_nav-bar.scss */
+/* line 6, ../sass/_nav-bar.scss */
 .logo-img {
   width: 100px;
   height: 50px;
 }
 
-/* line 15, ../sass/_nav-bar.scss */
+/* line 11, ../sass/_nav-bar.scss */
 a {
   color: black;
 }
 
-/* line 18, ../sass/_nav-bar.scss */
+/* line 14, ../sass/_nav-bar.scss */
 a:hover {
   text-decoration: none;
   color: black;
 }
 
-/* line 23, ../sass/_nav-bar.scss */
+/* line 19, ../sass/_nav-bar.scss */
 a:visited {
   text-decoration: none;
   color: black;
 }
 
-/* line 28, ../sass/_nav-bar.scss */
+/* line 24, ../sass/_nav-bar.scss */
 .side-bar {
   position: fixed;
+  z-index: 100;
   transform-origin: left;
-  transform: rotate(-90deg) translateX(-50%);
-  top: 50%;
-  left: 25px;
+  transform: rotate(90deg) translateX(-50%);
+  top: 45%;
+  right: -24%;
 }
 
-/* line 37, ../sass/_nav-bar.scss */
+/* line 34, ../sass/_nav-bar.scss */
 .nav {
   display: block;
 }
-/* line 39, ../sass/_nav-bar.scss */
+/* line 36, ../sass/_nav-bar.scss */
 .nav li {
+  font-size: 17px;
   display: inline;
-  margin-left: 10px;
+  margin-right: 20px;
 }
 
-/* line 45, ../sass/_nav-bar.scss */
+/* line 43, ../sass/_nav-bar.scss */
 .dafi-design {
   position: fixed;
-  top: 15px;
-  right: 10px;
+  top: 47%;
+  left: 25px;
+  transform-origin: left;
+  transform: rotate(-90deg) translateX(-50%);
 }
 
 /* line 1, ../sass/_intro.scss */
 body {
   background: #e8ebef;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* line 6, ../sass/_intro.scss */
@@ -106,7 +71,7 @@ body {
 
 /* line 11, ../sass/_intro.scss */
 .text {
-  margin-top: 35%;
+  margin-top: 30%;
 }
 
 /* line 15, ../sass/_intro.scss */
@@ -202,43 +167,167 @@ body {
   margin-bottom: 2px;
 }
 
-/* line 1, ../sass/_about.scss */
-.about {
+/* line 3, ../sass/_about.scss */
+.aboutus {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 10%;
   text-align: left;
   max-width: 60%;
   font-size: 18px;
   line-height: 32px;
 }
 
-/* line 9, ../sass/_about.scss */
+/* line 14, ../sass/_about.scss */
 .about h1 {
   text-align: center;
   margin-bottom: 40px;
 }
 
-/* line 14, ../sass/_about.scss */
+/* line 19, ../sass/_about.scss */
 .us {
   margin-bottom: 35px;
 }
 
-/* line 18, ../sass/_about.scss */
+/* line 23, ../sass/_about.scss */
 .hightlight {
   font-size: 25px;
   font-weight: 600;
   color: #FF6600;
 }
 
-/* line 24, ../sass/_about.scss */
+/* line 29, ../sass/_about.scss */
 .team {
   display: flex;
   flex-direction: row;
+  margin-top: 35%;
 }
 
-/* line 29, ../sass/_about.scss */
+/* line 35, ../sass/_about.scss */
+.damjan {
+  margin-left: 10%;
+}
+
+/* line 39, ../sass/_about.scss */
 .filippo {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   margin-top: 200px;
-  margin-left: 550px;
+  margin-left: 250px;
+}
+
+/* line 47, ../sass/_about.scss */
+.team-img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+/* line 1, ../sass/_contact.scss */
+.logo-img {
+  width: 125px;
+  height: 60px;
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
+/* line 9, ../sass/_contact.scss */
+.hightlight a {
+  text-decoration: underline;
+  font-size: 42px;
+  font-weight: 400;
+  color: #FF6600;
+}
+
+/* line 16, ../sass/_contact.scss */
+.work {
+  margin-top: 8%;
+  margin-left: 10%;
+}
+
+/* line 21, ../sass/_contact.scss */
+.follow {
+  position: absolute;
+  text-align: left;
+  font-size: 45px;
+  font-weight: 500;
+  width: 65%;
+}
+
+/* line 30, ../sass/_contact.scss */
+.social {
+  position: fixed;
+  bottom: 20px;
+  right: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* line 42, ../sass/_contact.scss */
+.circle-base {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background: #ccc;
+  border: 1.5px solid #000;
+  text-align: center;
+  margin: 2px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 56, ../sass/_contact.scss */
+a:visited {
+  text-decoration: none;
+}
+
+/* line 60, ../sass/_contact.scss */
+a:hover {
+  color: black;
+}
+
+/* line 1, ../sass/_clients.scss */
+.partner-img img {
+  max-width: 100%;
+  background: #fff;
+  filter: grayscale(1);
+  transition: all 0.5s ease-in-out;
+}
+
+/* line 8, ../sass/_clients.scss */
+.partner-img {
+  margin-bottom: 20px;
+}
+
+/* line 12, ../sass/_clients.scss */
+.topposition {
+  margin-top: 13%;
+  margin-left: 25px;
+}
+
+/* line 17, ../sass/_clients.scss */
+.cnt-button a {
+  display: inline-block;
+  border: 3px solid #FF6600;
+  color: black;
+  font-size: 1.2em;
+  line-height: 1;
+  padding: 15px 30px;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+/* line 28, ../sass/_clients.scss */
+.letswork {
+  margin-top: 50%;
+  margin-left: 30px;
+}
+
+/* line 33, ../sass/_clients.scss */
+.cnt-button {
+  margin-top: 30px;
 }
